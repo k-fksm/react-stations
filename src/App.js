@@ -15,7 +15,7 @@ export const App = () => {
         Dogアプリ
       </header>
       犬の画像を表示するサイトです。
-      <img src=dogUrl>
+      <img src={dogUrl}>
     </div>
   )
 }
