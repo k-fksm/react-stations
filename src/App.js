@@ -1,6 +1,6 @@
 // DO NOT DELETE
 
-import *, {useState} as React from 'react'
+import * as React from 'react'
 import './App.css'
 
 /**
@@ -9,7 +9,6 @@ import './App.css'
  */
 export const App = () => {
   const [dogUrl, setDogUrl] = useState('https://images.dog.ceo/breeds/collie-border/n02106166_3447.jpg');
-  const
   return (
     <div>
       <header>
