@@ -8,13 +8,14 @@ import './App.css'
  * @type {React.FC}
  */
 export const App = () => {
+  const [dogUrl, setDogUrl] = setState('https://images.dog.ceo/breeds/collie-border/n02106166_3447.jpg');
   return (
     <div>
       <header>
-      Dogアプリ
+        Dogアプリ
       </header>
       犬の画像を表示するサイトです。
-      <img src='https://images.dog.ceo/breeds/collie-border/n02106166_3447.jpg'>
+      <img src=dogUrl>
     </div>
   )
 }
