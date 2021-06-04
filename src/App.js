@@ -9,11 +9,10 @@ import './App.css'
  */
 export const App = () => {
   return (
-    <header>
-      Dogアプリ
-    </header>
-
     <div>
+      <header>
+      Dogアプリ
+      </header>
       犬の画像を表示するサイトです。
       <img src='https://images.dog.ceo/breeds/collie-border/n02106166_3447.jpg'>
     </div>
